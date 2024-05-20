@@ -1,0 +1,12 @@
+
+/* .col-md-4 mb-4{
+    background-color: navajowhite;
+} */
+
+#card{
+    width: 150px;
+    height: 200px;
+    background-color:plum;
+    margin-top: 50px;
+    margin-left: 10px;
+}

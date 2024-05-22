@@ -4,6 +4,7 @@ import AboutScreen from "./about-screen"
 import SettingsScreen from "./settings-screen"
 import BlogScreen from "./blog-screen"
 import InvalidScreen from "./invalid-screen"
+import ProductDetails from "./productDetails"
 
 
 const HandleNavigation=()=>{
@@ -14,6 +15,8 @@ const HandleNavigation=()=>{
         <Route path="/about" Component={AboutScreen}></Route>
         <Route path="/settings" Component={SettingsScreen}></Route>
         <Route path="/blog" Component={BlogScreen}></Route>
+
+        <Route path="/products/:productId" Component={ProductDetails}></Route>
 
         <Route path="*" Component={InvalidScreen}></Route>
       </Routes>

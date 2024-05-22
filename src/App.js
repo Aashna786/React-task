@@ -1,8 +1,5 @@
 
-import Mounting from "./funtcionalcomponents/classbasedcomponents/life-cycle/mounting";
-import HandleNavigation from "./static-routes/navigative-stack";
-
-
+import Navs from "./static-routes/navsection";
 
 
 const App=()=> {
@@ -10,8 +7,10 @@ const App=()=> {
 
     <div className='App'>
       
-<HandleNavigation/>
+{/* <HandleNavigation/> */}
 {/* <Mounting></Mounting> */}
+<Navs></Navs>
+
   
 </div>
   )

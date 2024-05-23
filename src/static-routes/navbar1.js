@@ -14,6 +14,7 @@ const Navb = ()=>{
             <Nav.Link as={Link} style={linkStyle} to="/">Home</Nav.Link>
             <Nav.Link as={Link} style={linkStyle} to="/About">About</Nav.Link>
             <Nav.Link as={Link} style={linkStyle} to="/Contact">Contact</Nav.Link>
+            <Nav.Link as={Link} style={linkStyle} to="/cart-products">View CartProducts</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

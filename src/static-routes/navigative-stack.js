@@ -16,7 +16,7 @@ const HandleNavigation=()=>{
         <Route path="/settings" Component={SettingsScreen}></Route>
         <Route path="/blog" Component={BlogScreen}></Route>
 
-        <Route path="/products/:productId" Component={ProductDetails}></Route>
+        {/* <Route path="/products/:productId" Component={ProductDetails}></Route> */}
 
         <Route path="*" Component={InvalidScreen}></Route>
       </Routes>
